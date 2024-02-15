@@ -54,7 +54,7 @@
                     <button id="btnSave" type="button" class="btn btn-primary" onclick="SavePatient()">Save</button>
                     <button type="button" class="btn btn-primary" onclick="NewPatient()">New</button>
             
-                    <asp:GridView ID="patientGridView" CssClass="container" runat="server" AutoGenerateColumns="False" DataKeyNames="id" OnRowDeleting="patientGridView_RowDeleting">
+                    <asp:GridView ID="patientGridView"  runat="server" AutoGenerateColumns="False" DataKeyNames="id" OnRowDeleting="patientGridView_RowDeleting">
                         <Columns>
                              <asp:TemplateField HeaderText="Select">
                                 <ItemTemplate>
@@ -149,7 +149,7 @@
             var notes = document.getElementById('<%= txtNotes.ClientID %>').value;
 
             if (!firstName || !lastName || !phone || !gender) {
-                alert("Fields firstname, lastname, phone, gender are mandatory! Please inform it before save.")
+                alert("Fields 'first name', 'last name', 'phone', 'gender' are mandatory! Please inform it before save.")
                 return;
             }
 
