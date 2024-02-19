@@ -1,6 +1,6 @@
 ﻿- I spent most of the 4 hours doing backend code and adjusting front end events on webforms. 
 - I used a "update panel" to be more responsive page.
-- I did kinf of 50% using classif webforms with code behind and 50% using jquery/ajax to show my skills.
+- I did kind of 50% using classic webforms with code behind and 50% using jquery/ajax to show my skills.
 - I used ""Advanced Encryption Standard (AES)"" cryptography. I prefer to use this because Microsoft recommend to cypher data using vector/key approach.
 
 - If I would have more time I would do a bootstrap gridview using jquery code like:
